@@ -1,7 +1,15 @@
+
+import java.util.Locale;
+import java.util.Scanner;
+
+
 public class JavaAgain {
     public static void main(String[] args) {
-        System.out.println("Hello World JavaAgain Testing");
+	Locale.setDefault(Locale.US);
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Hello World JavaAgain Testing");
    	System.out.println("Just Commit today");
+	sc.close();
 
 	 }
 }
